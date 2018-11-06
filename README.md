@@ -1,6 +1,6 @@
 # sql-intro-1
 
-Answer the following questions using the SQL Fiddle here: http://sqlfiddle.com/#!9/bc1df3/1000
+Answer the following questions using the SQL Fiddle here: https://www.db-fiddle.com/f/8aebs45GPaJUBgFNDuB1Rh/0
 
 - 1.1 Select the names of all the products in the store.
 - 1.2 Select the names and the prices of all the products in the store.
