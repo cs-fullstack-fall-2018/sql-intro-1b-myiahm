@@ -50,6 +50,34 @@ Select  avg(price)
  
  
 - 1.8 Compute the number of products with a price larger than or equal to $180.
+
+
+Select  price   
+ from Products
+  where price >= 180 
+  
+  
 - 1.9 Select the name and price of all products with a price larger than or equal to $180, and sort first by price (in descending order), and then by name (in ascending order).
+
+Select  price, name     
+ from Products
+  where price  >= 180 
+  order by price desc
+
+Select  price, name     
+ from Products
+  where price  >= 180 
+  order by name asc
+
+
+
 - 1.10 Select all the data from the products, including all the data for each product's manufacturer.
+
+Select Manufacturers.name , products.name 
+ from Products
+  inner join Manufacturers on products.name = Manufacturers.name;
+  
+
 - 1.11 Select the product name, price, and manufacturer name of all the products.
+
+
